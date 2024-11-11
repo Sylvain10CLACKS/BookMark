@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark Manager</title>
+    <link rel="stylesheet" href="bookmark.css">
+</head>
+<body>
+    <section>
+        <div class="Amn">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKeEup3mVoEo9hMSECh3Zqn8B_xNQwTltjKQ&s" id="icon" alt="Bookmark Icon"/>
+            <p id="book">Bookmark Manager</p> 
+        </div>
+     
+
+        <div id="textArea">   
+            <form>
+            <input type="text" placeholder="Website name" id="bookmark-name" required>
+            <input type="url" placeholder="Website URL" id="bookmark-url" required>
+            <button id="add" onclick="addBookmark()">Add Bookmark</button>
+        </form>
+        </div>
+
+        <div id="bookmarkList"></div>
+    </section>
+
+    <script src="bookmark.js"></script>
+</body>
+</html>
